@@ -1,0 +1,99 @@
+\documentclass[journal, onecolumn]{IEEEtran} % twoside helps second header
+\usepackage{ifluatex}
+\ifluatex
+  \usepackage{pdftexcmds}
+  \makeatletter
+  \let\pdfstrcmp\pdf@strcmp
+  \let\pdffilemoddate\pdf@filemoddate
+  \makeatother
+\fi
+%--------------   PACKAGES ----------------%
+
+\usepackage[dvipsnames]{xcolor}
+\usepackage{pgfplots}
+\usepackage{pgfplotstable}
+\usepackage{graphicx}
+\usepackage{parskip}
+\usepackage{float}
+%\usepackage[cmintegrals,cmbraces]{newtxmath}
+%\usepackage{ebgaramond-maths}
+\usepackage[OT1]{fontenc}
+%\usepackage{times}
+%\usepackage[]{CormorantGaramond}
+\usepackage{amsmath}
+\usepackage{csvsimple}
+\usepackage[shortlabels]{enumitem}
+\usepackage[notransparent]{svg}
+%\usepackage{librebaskerville}
+%\usepackage{context}
+%\usepackage{fontspec}
+\usepackage{lmodern}
+%\usepackage{caption} % Uncomment before Final Draft
+\usepackage{calc}
+\usepackage[hidelinks]{hyperref}
+%\usepackage{media9}
+\usepackage{ulem}
+\usepackage{flafter}
+\usepackage{adjustbox}
+
+% -------------------- DEFINITIONS ------------------
+
+\definecolor{mypink3}{cmyk}{0, 0.1508, 0.1829, 0.0512}
+%\pagecolor{mypink3}
+%\color{black}
+%\definecolor{Task}{red!90!black}
+
+%\captionsetup{belowskip=0pt}
+\newcommand{\chapsubhead}[1]{{\normalsize #1 \vspace{2ex}}} %\vspace{2ex}
+\newcommand{\squeezeup}{\vspace{-0.5cm}}
+\renewcommand{\familydefault}{\rmdefault}
+\svgpath{{./svg/}}
+\graphicspath{{./img/}{./data/}}
+%\fontfamily{lmr}\selectfont
+%\setmainfont{lmr}
+
+% ---------------- PREAMBLE --------------------
+%\raggedbottom
+\svgsetup{inkscapelatex = false}
+\pgfplotsset{compat=1.18}
+\fontsize{1pt}{2pt}
+%\def\svgwidth{8cm}
+
+\iffalse
+\setlist{nolistsep}
+\setlist{noitemsep}
+\fi
+
+\hypersetup{
+    colorlinks,
+    linkcolor = {red!80!black},
+    citecolor = {blue!50!black},
+    urlcolor = {blue!80!black}
+}
+
+
+% ---------------- DOCUMENT BEGINS --------------
+\begin{document}
+\title{Assignment \#2}
+\author{Saiprasad Hakki, \normalsize{EE22BTECH11216}}%
+\maketitle
+\markboth{Analog IC Design, FALL 2024}%
+{Assignment \#2}
+%\IEEEpeerreviewmaketitle
+% \section{INTRODUCTION}
+
+\begin{enumerate}[2.]
+	\item2 {
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.8\textwidth]{VtVd}
+			\caption{$V_{T}$ vs $V_{DS}$}
+			\label{fig:VtVd}
+		\end{figure}
+	}
+
+\end{enumerate}
+
+
+
+\end{document}
