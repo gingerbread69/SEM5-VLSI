@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.8.11)  8 SEP 2024 19:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.8.11)  8 SEP 2024 21:53
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -790,77 +790,110 @@ Package hyperref Info: Link coloring ON on input line 94.
 \@outlinefile=\write5
 \openout5 = `report.out'.
 
-<./img/VtVd.png, id=7, 1927.2pt x 822.07124pt>
-File: ./img/VtVd.png Graphic file (type png)
-<use ./img/VtVd.png>
-Package pdftex.def Info: ./img/VtVd.png  used on input line 108.
-(pdftex.def)             Requested size: 412.80157pt x 176.07704pt.
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 109.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 108.
  (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 109.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 108.
  (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 109.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 108.
  (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 109.
+(Font)              <10> on input line 108.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 109.
+(Font)              <7> on input line 108.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 109.
-<./img/VtVdEx.png, id=9, 489.83pt x 396.48125pt>
+(Font)              <5> on input line 108.
+<./img/IdVgNMOS.png, id=7, 1918.16624pt x 826.08624pt>
+File: ./img/IdVgNMOS.png Graphic file (type png)
+<use ./img/IdVgNMOS.png>
+Package pdftex.def Info: ./img/IdVgNMOS.png  used on input line 114.
+(pdftex.def)             Requested size: 412.80157pt x 177.76894pt.
+<./img/IdVgNMOSlog.png, id=9, 1918.16624pt x 826.08624pt>
+File: ./img/IdVgNMOSlog.png Graphic file (type png)
+<use ./img/IdVgNMOSlog.png>
+Package pdftex.def Info: ./img/IdVgNMOSlog.png  used on input line 122.
+(pdftex.def)             Requested size: 412.80157pt x 177.76894pt.
+ [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc} <./img/IdVgNMOS.png> <./img/IdVgNMOSlog.png>]
+<./img/IdVgPMOS.png, id=29, 1918.16624pt x 826.08624pt>
+File: ./img/IdVgPMOS.png Graphic file (type png)
+<use ./img/IdVgPMOS.png>
+Package pdftex.def Info: ./img/IdVgPMOS.png  used on input line 152.
+(pdftex.def)             Requested size: 412.80157pt x 177.76894pt.
+<./img/IdVgPMOSlog.png, id=30, 1918.16624pt x 826.08624pt>
+File: ./img/IdVgPMOSlog.png Graphic file (type png)
+<use ./img/IdVgPMOSlog.png>
+Package pdftex.def Info: ./img/IdVgPMOSlog.png  used on input line 159.
+(pdftex.def)             Requested size: 412.80157pt x 177.76894pt.
+ [2 <./img/IdVgPMOS.png>]
+<./img/VtVdPMOS.png, id=38, 1918.16624pt x 826.08624pt>
+File: ./img/VtVdPMOS.png Graphic file (type png)
+<use ./img/VtVdPMOS.png>
+Package pdftex.def Info: ./img/VtVdPMOS.png  used on input line 169.
+(pdftex.def)             Requested size: 412.80157pt x 177.76894pt.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 170.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 170.
+<./img/VtVd.png, id=39, 1927.2pt x 822.07124pt>
+File: ./img/VtVd.png Graphic file (type png)
+<use ./img/VtVd.png>
+Package pdftex.def Info: ./img/VtVd.png  used on input line 175.
+(pdftex.def)             Requested size: 412.80157pt x 176.07704pt.
+<./img/VtVdEx.png, id=40, 489.83pt x 396.48125pt>
 File: ./img/VtVdEx.png Graphic file (type png)
 <use ./img/VtVdEx.png>
-Package pdftex.def Info: ./img/VtVdEx.png  used on input line 114.
+Package pdftex.def Info: ./img/VtVdEx.png  used on input line 181.
 (pdftex.def)             Requested size: 206.39685pt x 167.05942pt.
- [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc} <./img/VtVd.png> <./img/VtVdEx.png>]
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 144.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 144.
-<./img/2-3nmos.png, id=27, 1927.2pt x 822.07124pt>
+ [3 <./img/IdVgPMOSlog.png> <./img/VtVdPMOS.png>]
+<./img/2-3nmos.png, id=52, 1927.2pt x 822.07124pt>
 File: ./img/2-3nmos.png Graphic file (type png)
 <use ./img/2-3nmos.png>
-Package pdftex.def Info: ./img/2-3nmos.png  used on input line 147.
+Package pdftex.def Info: ./img/2-3nmos.png  used on input line 213.
 (pdftex.def)             Requested size: 412.80157pt x 176.07704pt.
-File: ./img/2-3nmos.png Graphic file (type png)
-<use ./img/2-3nmos.png>
-Package pdftex.def Info: ./img/2-3nmos.png  used on input line 159.
+ [4 <./img/VtVd.png> <./img/VtVdEx.png> <./img/2-3nmos.png>]
+<./img/2-3pmos.png, id=64, 1927.2pt x 822.07124pt>
+File: ./img/2-3pmos.png Graphic file (type png)
+<use ./img/2-3pmos.png>
+Package pdftex.def Info: ./img/2-3pmos.png  used on input line 225.
 (pdftex.def)             Requested size: 412.80157pt x 176.07704pt.
- [2 <./img/2-3nmos.png>]
-<./img/3nmos.png, id=38, 1927.2pt x 822.07124pt>
+<./img/3nmos.png, id=65, 1927.2pt x 822.07124pt>
 File: ./img/3nmos.png Graphic file (type png)
 <use ./img/3nmos.png>
-Package pdftex.def Info: ./img/3nmos.png  used on input line 177.
+Package pdftex.def Info: ./img/3nmos.png  used on input line 242.
 (pdftex.def)             Requested size: 412.80157pt x 176.07704pt.
- [3{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc} <./img/3nmos.png>]
-<./img/CgVgsNmos.png, id=48, 2569.6pt x 1098.1025pt>
+<./img/3pmos.png, id=66, 1918.16624pt x 826.08624pt>
+File: ./img/3pmos.png Graphic file (type png)
+<use ./img/3pmos.png>
+Package pdftex.def Info: ./img/3pmos.png  used on input line 249.
+(pdftex.def)             Requested size: 412.80157pt x 177.76894pt.
+ [5 <./img/2-3pmos.png> <./img/3nmos.png>]
+<./img/CgVgsNmos.png, id=77, 2569.6pt x 1098.1025pt>
 File: ./img/CgVgsNmos.png Graphic file (type png)
 <use ./img/CgVgsNmos.png>
-Package pdftex.def Info: ./img/CgVgsNmos.png  used on input line 192.
+Package pdftex.def Info: ./img/CgVgsNmos.png  used on input line 263.
 (pdftex.def)             Requested size: 412.80157pt x 176.40372pt.
-<./img/CgVgsPmos.png, id=49, 1918.16624pt x 826.08624pt>
+<./img/CgVgsPmos.png, id=78, 1918.16624pt x 826.08624pt>
 File: ./img/CgVgsPmos.png Graphic file (type png)
 <use ./img/CgVgsPmos.png>
-Package pdftex.def Info: ./img/CgVgsPmos.png  used on input line 200.
+Package pdftex.def Info: ./img/CgVgsPmos.png  used on input line 271.
 (pdftex.def)             Requested size: 412.80157pt x 177.76894pt.
-<./img/CdVdsNmos.png, id=50, 2569.6pt x 1098.1025pt>
+<./img/CdVdsNmos.png, id=79, 2569.6pt x 1098.1025pt>
 File: ./img/CdVdsNmos.png Graphic file (type png)
 <use ./img/CdVdsNmos.png>
-Package pdftex.def Info: ./img/CdVdsNmos.png  used on input line 210.
+Package pdftex.def Info: ./img/CdVdsNmos.png  used on input line 281.
 (pdftex.def)             Requested size: 412.80157pt x 176.40372pt.
- [4 <./img/CgVgsNmos.png (PNG copy)> <./img/CgVgsPmos.png>]
-<./img/CdVdsPmos.png, id=60, 2569.6pt x 1098.1025pt>
+ [6 <./img/3pmos.png> <./img/CgVgsNmos.png (PNG copy)> <./img/CgVgsPmos.png>]
+<./img/CdVdsPmos.png, id=91, 2569.6pt x 1098.1025pt>
 File: ./img/CdVdsPmos.png Graphic file (type png)
 <use ./img/CdVdsPmos.png>
-Package pdftex.def Info: ./img/CdVdsPmos.png  used on input line 220.
+Package pdftex.def Info: ./img/CdVdsPmos.png  used on input line 290.
 (pdftex.def)             Requested size: 412.80157pt x 176.40372pt.
- [5 <./img/CdVdsNmos.png (PNG copy)> <./img/CdVdsPmos.png (PNG copy)>] (./report.aux)
+ [7 <./img/CdVdsNmos.png (PNG copy)> <./img/CdVdsPmos.png (PNG copy)>] (./report.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
@@ -869,18 +902,18 @@ Package rerunfilecheck Info: File `report.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 34813 strings out of 474222
- 815788 string characters out of 5748733
- 1927975 words of memory out of 5000000
- 56440 multiletter control sequences out of 15000+600000
+ 34914 strings out of 474222
+ 817821 string characters out of 5748733
+ 1931975 words of memory out of 5000000
+ 56531 multiletter control sequences out of 15000+600000
  731994 words of font info for 130 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,8n,101p,728b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi7.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb>
-Output written on report.pdf (5 pages, 5288913 bytes).
+</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi7.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy7.pfb>
+Output written on report.pdf (7 pages, 5802592 bytes).
 PDF statistics:
- 122 PDF objects out of 1000 (max. 8388607)
- 79 compressed objects within 1 object stream
- 20 named destinations out of 1000 (max. 500000)
- 53 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 160 PDF objects out of 1000 (max. 8388607)
+ 99 compressed objects within 1 object stream
+ 30 named destinations out of 1000 (max. 500000)
+ 88 words of extra memory for PDF output out of 10000 (max. 10000000)
 
