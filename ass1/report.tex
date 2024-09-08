@@ -35,8 +35,26 @@
 \usepackage{ulem}
 \usepackage{flafter}
 \usepackage{adjustbox}
+\usepackage{fancyhdr}
 
 % -------------------- DEFINITIONS ------------------
+
+
+\newcommand\crule[3][black]{\textcolor{#1}{\rule{#2}{#3}}}
+
+% FANCYHDR
+
+%\pagestyle{fancy}
+%\fancyhf{}
+%\fancyhead[RE]{\color[gray]{0}\leftmark}
+%\fancyhead[LO]{\color[gray]{0}\rightmark}
+%\fancyfoot[RO,LE]{\thepage}
+%
+%
+%\renewcommand{\partmark}[1]{\markboth{\thepart. #1}{}}
+%\renewcommand{\chaptermark}[1]{\markright{\thechapter.\ #1}}
+%\renewcommand{\sectionmark}[1]{}
+
 
 \definecolor{mypink3}{cmyk}{0, 0.1508, 0.1829, 0.0512}
 %\pagecolor{mypink3}
@@ -84,17 +102,126 @@
 % \section{INTRODUCTION}
 
 \begin{enumerate}[2.]
-	\item2 {
-		\begin{figure}[H]
+	\item2) {
+		\begin{figure}[htpb]
 			\centering
 			\includegraphics[width=0.8\textwidth]{VtVd}
 			\caption{$V_{T}$ vs $V_{DS}$}
 			\label{fig:VtVd}
 		\end{figure}
+		\begin{figure}[htpb]
+		    \centering
+		    \includegraphics[width=.4\linewidth]{VtVdEx}
+		    \caption{Another figure}
+		    \label{fig:test2}
+		\end{figure}
+	}
+
+	\iffalse
+	\item2 {
+		\begin{figure}[htpb]
+		\centering
+		\begin{minipage}{.5\textwidth}
+		  \centering
+		  \includegraphics[width=.9\linewidth]{VtVd}
+		  \caption{A figure}
+		  \label{fig:test1}
+		\end{minipage}%
+		\begin{minipage}{.5\textwidth}
+		  \centering
+		  \includegraphics[width=.4\linewidth]{VtVdEx}
+		  \caption{Another figure}
+		  \label{fig:test2}
+		\end{minipage}
+		\end{figure}
+	}
+	\fi
+
+	\pagebreak
+
+	\item3) {
+
+		Following is the plot of $\dfrac{\partial{I_{D}}}{\partial{V_{GS}}}$ vs $V_{GS}$ for NMOS (with log scale aswell)
+		\begin{figure}[htpb]
+			\centering
+			\includegraphics[width=0.8\textwidth]{2-3nmos}
+			\caption{$\dfrac{\partial{I_{D}}}{\partial{V_{GS}}}$ vs $V_{GS}$}
+			\label{fig:2-3nmos}
+		\end{figure}
+
+		By extrapolating Linear and Quadratic region we observe that the boundary point for NMOS is at:\\
+		$(0.827901V, 0.00103533A)$
+
+
+		Following is the plot of $\dfrac{\partial{I_{D}}}{\partial{V_{GS}}}$ vs $V_{GS}$ for PMOS
+		\begin{figure}[htpb]
+			\centering
+			\includegraphics[width=0.8\textwidth]{2-3nmos}
+			\caption{$\dfrac{\partial{I_{D}}}{\partial{V_{GS}}}$ vs $V_{GS}$}
+			\label{fig:2-3pmos}
+		\end{figure}
+
+		By extrapolating Linear and Quadratic region we observe that the boundary point for NMOS is at:\\
+		$(0.827901V, 0.00103533A)$
 	}
 
 \end{enumerate}
 
+\pagebreak
 
+
+\begin{enumerate}[3(a)]
+	\item \textbf{NMOS:} The plots for $I_{D}$ vs $V_{DS}$ for $V_{GS} = \{2V_{T}, 3V_{T}, V_{DD}\}$ NMOS device:
+		\begin{figure}[htpb]
+			\centering
+			\includegraphics[width=0.8\textwidth]{3nmos}
+			\caption{\crule[YellowGreen]{2mm}{2mm} : $V_{GS} = 2V_{T}$ ; \crule[Cerulean]{2mm}{2mm} : $V_{GS} = 3V_{T}$ ; \crule[WildStrawberry]{2mm}{2mm} : $V_{GS} = V_{DD}$ }
+			\label{fig:3nmos}
+		\end{figure}
+\end{enumerate}
+
+
+\pagebreak
+
+
+\begin{enumerate}[5.]
+	\item2) {
+		Given below is the plot of $C_{G}$ vs $V_{GS}$ for NMOS
+		\begin{figure}[htpb]
+			\centering
+			\includegraphics[width=0.8\textwidth]{CgVgsNmos}
+			\caption{$C_{G}$ vs $V_{GS}$ for NMOS; \crule[yellow]{2mm}{2mm} : $C_{gg} + C_{ggbo}$}
+			\label{fig:CgVgsNmos}
+		\end{figure}
+
+		Given below is the plot of $C_{G}$ vs $V_{GS}$ for PMOS
+		\begin{figure}[htpb]
+			\centering
+			\includegraphics[width=0.8\textwidth]{CgVgsPmos}
+			\caption{$C_{G}$ vs $V_{GS}$ for PMOS; \crule[yellow]{2mm}{2mm} : $C_{gg} + C_{ggbo}$, \crule[red]{2mm}{2mm} : $C_{gg}$}
+			\label{fig:CgVgsPmos}
+		\end{figure}
+	}
+
+	\item3) {
+		Given below is the plot of $C_{D}$ vs $V_{DS}$ for NMOS
+		\begin{figure}[htpb]
+			\centering
+			\includegraphics[width=0.8\textwidth]{CdVdsNmos}
+			\caption{$C_{D}$ vs $V_{DS}$ for NMOS; \crule[blue!10!cyan!40!white!100!]{2mm}{2mm} : $C_{dd} + C_{ddbo}$}
+			\label{fig:CdVdsNmos}
+		\end{figure}
+
+		\pagebreak
+
+		Given below is the plot of $C_{D}$ vs $V_{DS}$ for PMOS
+		\begin{figure}[htpb]
+			\centering
+			\includegraphics[width=0.8\textwidth]{CdVdsPmos}
+			\caption{$C_{D}$ vs $V_{DS}$ for PMOS; \crule[Cerulean]{2mm}{2mm} : $C_{dd} + C_{ddbo}$} % blue!65!cyan!65!
+			\label{fig:CdVdsPmos}
+		\end{figure}
+	}
+\end{enumerate}
 
 \end{document}
